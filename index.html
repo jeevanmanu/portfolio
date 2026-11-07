@@ -40,8 +40,6 @@
       background-color: #FAFAFA;
       color: #121212;
       overflow-x: clip;
-      selection-background-color: #000;
-      selection-color: #fff;
     }
 
     ::selection {
@@ -117,6 +115,7 @@
     .metallic-title {
       display: inline-block;
       background: linear-gradient(180deg, #1A1A1A 0%, #4A4A4A 35%, #8E8E8E 60%, #BDBDBD 85%, #E5E5E5 100%);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -129,6 +128,7 @@
 
     .footer-metallic-title {
       background: linear-gradient(180deg, #FFFFFF 0%, #a8a8a8 50%, #444444 100%);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: filter 0.3s ease;
