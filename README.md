@@ -119,7 +119,7 @@ This project is built using native ES modules and standard web technologies. You
 ### Option 1: Python Simple HTTP Server (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/Jishnu09-siuu/ECHO-WEBSITE.git
+git clone https://github.com/jeevanmanu/portfolio.git
 cd ECHO-WEBSITE
 
 # Run local development server
